@@ -10,22 +10,26 @@
 ## Installation
 [todo]
 
-### Travis CI
-[todo]
+## Development
 
-### Code coverage
+### Tests
 [todo]
-
-## Usage
 
 ### Linting
 [todo]
 
-### Tests
-[todo]
+## Production
 
 ### Build
 [todo]
 
 ### Publish to PyPi
+[todo]
+
+## Continous integration
+
+### Travis CI
+[todo]
+
+### Code coverage
 [todo]
