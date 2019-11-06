@@ -10,7 +10,7 @@
 ## Installation
 [todo]
 
-### Jenkins
+### Travis CI
 [todo]
 
 ### Code coverage
