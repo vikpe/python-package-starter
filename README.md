@@ -2,8 +2,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Features
-* Single `pyproject.toml` config ([PEP518](https://www.python.org/dev/peps/pep-0518/))
 * Multi-version support ([pyenv](https://github.com/pyenv/pyenv), [tox](https://github.com/tox-dev/tox/))
+* Simple config using the new standardized `pyproject.toml` ([PEP518](https://www.python.org/dev/peps/pep-0518/))
 * Build/publish to PyPi ([poetry](https://github.com/sdispater/poetry))
 * Continous integration ([Travis CI](https://travis-ci.org/))
 * Code formatting ([black](https://github.com/psf/black))
