@@ -11,27 +11,38 @@
 * Code formatting (black)
 
 ## Installation
-1. Clone repo: 
-```sh
-git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]
-```
-2. Install `poetry install`
+1. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]`
+2. Install dependencies `poetry install`
 
 ## Development
 
 ### Tests
-[todo]
+**Run tests in current Python version**
+```sh
+poetry run pytest
+```
+
+**Multi-version test using TOX**
+```sh
+tox
+```
 
 ### Linting
-[todo]
+```sh
+black
+```
 
 ## Production
 
 ### Build
-[todo]
+```sh
+poetry build
+```
 
 ### Publish to PyPi
-[todo]
+```sh
+poetry publish
+```
 
 ## Continous integration
 
