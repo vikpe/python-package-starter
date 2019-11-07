@@ -4,7 +4,7 @@
 ## Features
 * Multi-version support ([pyenv](https://github.com/pyenv/pyenv), [tox](https://github.com/tox-dev/tox/))
 * Simple config using the new standardized `pyproject.toml` ([PEP518](https://www.python.org/dev/peps/pep-0518/))
-* Build/publish to PyPi ([poetry](https://github.com/sdispater/poetry))
+* Build/publish/dependency management using ([poetry](https://github.com/sdispater/poetry))
 * Continous integration ([Travis CI](https://travis-ci.org/))
 * Code formatting ([black](https://github.com/psf/black))
 
