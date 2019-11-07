@@ -13,7 +13,7 @@
 
 ## Installation
 1. Install the Python versions you want to support using pyenv.
-2. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]`
+2. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [PACKAGE_NAME]`
 3. Install dependencies `poetry install`
 
 ## Development
@@ -31,7 +31,7 @@ tox
 
 ### Linting
 ```sh
-black
+poetry run black .
 ```
 
 ## Production
@@ -49,7 +49,7 @@ poetry publish
 ## Continous integration
 
 ### Travis CI
-[todo]
+Login to [Travis CI](https://travis-ci.org/) and connect your repo. Travis will automatically run tests whenever there is a commit.
 
 ### Code coverage
 [todo]
