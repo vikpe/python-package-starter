@@ -1,10 +1,15 @@
 # Python Package Starter
-> foo to the bar
+> Python 3.x package starter.
+
+<p align="center">
+  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+ </p>
 
 ## Features
 * Single `pyproject.toml` config ([PEP518](https://www.python.org/dev/peps/pep-0518/))
-* Multi-version support (TOX)
-* Build script
+* Multi-version support (pyenv, TOX)
+* Build/publish to PyPi (poetry)
+* Continous integration (Travis CI)
 * Code formatting (black)
 
 ## Installation
