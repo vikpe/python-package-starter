@@ -8,7 +8,11 @@
 * Code formatting (black)
 
 ## Installation
-[todo]
+1. Clone repo: 
+```sh
+git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]
+```
+2. Install `poetry install`
 
 ## Development
 
