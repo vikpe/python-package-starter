@@ -3,7 +3,7 @@ python:
   - "3.6"
   - "3.8"
 before_install:
-  - pip install poetry tox-travis
+  - pip install poetry
 install:
   - poetry install
-script: tox
+script: poetry run pytest
