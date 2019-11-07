@@ -15,6 +15,7 @@
 1. Install the Python versions you want to support using pyenv.
 2. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [PACKAGE_NAME]`
 3. Install dependencies `poetry install`
+4. Edit `pyproject.toml` and replace `foo` with your package name.
 
 ## Development
 
