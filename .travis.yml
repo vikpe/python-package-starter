@@ -2,8 +2,6 @@ language: python
 python:
   - "3.6"
   - "3.8"
-before_install:
-  - pip install poetry tox-travis
 install:
-  - poetry install
+  - pip install poetry tox-travis
 script: tox
