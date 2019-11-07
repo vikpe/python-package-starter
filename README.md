@@ -3,10 +3,13 @@
 
 ## Features
 * Single `pyproject.toml` config ([PEP518](https://www.python.org/dev/peps/pep-0518/))
-* Multi-version support (pyenv, TOX)
-* Build/publish to PyPi (poetry)
-* Continous integration (Travis CI)
-* Code formatting (black)
+* Multi-version support ([pyenv](https://github.com/pyenv/pyenv), [tox](https://github.com/tox-dev/tox/))
+* Build/publish to PyPi ([poetry](https://github.com/sdispater/poetry))
+* Continous integration ([Travis CI](https://travis-ci.org/))
+* Code formatting ([black](https://github.com/psf/black))
+
+## Prerequisites
+* [pyenv](https://github.com/pyenv/pyenv)
 
 ## Installation
 1. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]`
