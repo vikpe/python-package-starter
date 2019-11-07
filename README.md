@@ -12,8 +12,9 @@
 * [pyenv](https://github.com/pyenv/pyenv)
 
 ## Installation
-1. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]`
-2. Install dependencies `poetry install`
+1. Install the Python versions you want to support using pyenv.
+2. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [YOUR_PACKAGE_NAME]`
+3. Install dependencies `poetry install`
 
 ## Development
 
