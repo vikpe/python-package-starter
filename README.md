@@ -17,35 +17,15 @@
 3. Install dependencies `poetry install`
 4. Edit `pyproject.toml` and replace `foo` with your package name.
 
-## Development
+## Usage
 
-### Tests
-**Run tests in current Python version**
-```sh
-poetry run pytest
-```
-
-**Multi-version test using TOX**
-```sh
-tox
-```
-
-### Linting
-```sh
-poetry run black .
-```
-
-## Production
-
-### Build
-```sh
-poetry build
-```
-
-### Publish to PyPi
-```sh
-poetry publish
-```
+Command | Description
+--- | ---
+`poetry run pytest` | Run tests in local Python version.
+`poetry run tox` | Run tests in all Python versions defined in `tox.ini`.
+`poetry run black .` | Run black code formatter.
+`poetry build` | Build sdist and wheel to `/dist`.
+`poetry publish` | Publish package to PyPi.
 
 ## Continous integration
 
