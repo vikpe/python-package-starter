@@ -1,9 +1,7 @@
 # Python Package Starter
 > Python 3.x package starter.
 
-<p align="center">
-  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
- </p>
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Features
 * Single `pyproject.toml` config ([PEP518](https://www.python.org/dev/peps/pep-0518/))
