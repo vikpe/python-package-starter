@@ -10,6 +10,7 @@
 
 ## Prerequisites
 * [pyenv](https://github.com/pyenv/pyenv)
+* [poetry](https://github.com/sdispater/poetry)
 
 ## Installation
 1. Install the Python versions you want to support using pyenv.
