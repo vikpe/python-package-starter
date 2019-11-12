@@ -16,8 +16,8 @@
 1. Install the Python versions you want to support using pyenv.
 2. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [PACKAGE_NAME]` 
 3. `cd [PACKAGE NAME]`
-4. Create a virtual env using pyenv: `pyenv virtualenv [package abbreviation][python version]` (eg. `foo38` for Python 3.8)
-5. Activate virutal env: `pyenv activate foo38`
+4. Create a virtual env: `pyenv virtualenv [package abbreviation][python version]` (eg. `foo38` for Python 3.8)
+5. Activate virtual env: `pyenv activate foo38`
 6. Install dependencies: `poetry install`
 7. Edit `pyproject.toml`, update project name, description and author and any other settings you like.
 
