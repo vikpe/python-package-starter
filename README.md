@@ -10,6 +10,7 @@
 
 ## Prerequisites
 * [pyenv](https://github.com/pyenv/pyenv)
+* [poetry](https://github.com/sdispater/poetry)
 
 ## Installation
 1. Install the Python versions you want to support using `pyenv`.
@@ -17,8 +18,9 @@
 3. `cd [PACKAGE NAME]`
 4. Create a virtual env: `pyenv virtualenv 3.8.0 foo38`
 5. Activate virtual env: `pyenv activate foo38`
-6. Install dependencies: `poetry install`
-7. Edit `pyproject.toml`, update project name, description and author and any other settings you like.
+6. Install poetry: `poetry install`
+7. Install dependencies: `poetry install`
+8. Edit `pyproject.toml`, update project name, description and author and any other settings you like.
 
 ## Usage
 
