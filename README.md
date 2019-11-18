@@ -23,7 +23,7 @@
 4. `cd [PACKAGE NAME]`
 5. Create a virtual env: `pyenv virtualenv 3.8.0 foo38`
 6. Activate virtual env: `pyenv activate foo38`
-7. Install poetry: `poetry install`
+7. Install poetry: `pip install poetry`
 8. Install dependencies: `poetry install`
 9. Edit `pyproject.toml`, update project name, description and author and any other settings you like.
 
