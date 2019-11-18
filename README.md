@@ -9,7 +9,7 @@
 * Code formatting ([black](https://github.com/psf/black))
 
 ## Prerequisites
-* [pyenv](https://github.com/pyenv/pyenv)
+* [pyenv](https://github.com/pyenv/pyenv) (for automatic installation use [pyenv-installer](https://github.com/pyenv/pyenv-installer))
 * [poetry](https://github.com/sdispater/poetry)
 
 ## Installation
