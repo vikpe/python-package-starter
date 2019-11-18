@@ -15,7 +15,10 @@
 ## Installation
 1. Install [pyenv](https://github.com/pyenv/pyenv).
 2. Install the Python versions you want to support using `pyenv`.
-  * Example: `pyenv install 3.8.0`
+  ```sh
+  pyenv install 3.6.9
+  pyenv install 3.8.0
+  ```
 3. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [PACKAGE_NAME]` 
 4. `cd [PACKAGE NAME]`
 5. Create a virtual env: `pyenv virtualenv 3.8.0 foo38`
