@@ -13,14 +13,16 @@
 * [poetry](https://github.com/sdispater/poetry)
 
 ## Installation
-1. Install the Python versions you want to support using `pyenv`.
-2. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [PACKAGE_NAME]` 
-3. `cd [PACKAGE NAME]`
-4. Create a virtual env: `pyenv virtualenv 3.8.0 foo38`
-5. Activate virtual env: `pyenv activate foo38`
-6. Install poetry: `poetry install`
-7. Install dependencies: `poetry install`
-8. Edit `pyproject.toml`, update project name, description and author and any other settings you like.
+1. Install [pyenv](https://github.com/pyenv/pyenv).
+2. Install the Python versions you want to support using `pyenv`.
+  * Example: `pyenv install 3.8.0`
+3. Clone repo: `git clone git@github.com:vikpe/python-package-starter.git [PACKAGE_NAME]` 
+4. `cd [PACKAGE NAME]`
+5. Create a virtual env: `pyenv virtualenv 3.8.0 foo38`
+6. Activate virtual env: `pyenv activate foo38`
+7. Install poetry: `poetry install`
+8. Install dependencies: `poetry install`
+9. Edit `pyproject.toml`, update project name, description and author and any other settings you like.
 
 ## Usage
 
