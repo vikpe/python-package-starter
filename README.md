@@ -1,11 +1,11 @@
 # Python Package Starter
-[![Build Status](https://travis-ci.org/vikpe/python-package-starter.svg?branch=master)](https://travis-ci.org/vikpe/python-package-starter) ![Test](https://github.com/vikpe/python-package-starter/workflows/Test/badge.svg?branch=master) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Build Status](https://travis-ci.org/vikpe/python-package-starter.svg?branch=master)](https://travis-ci.org/vikpe/python-package-starter) ![test](https://github.com/vikpe/python-package-starter/workflows/test/badge.svg?branch=master) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Features
 * Multi python version support ([pyenv](https://github.com/pyenv/pyenv), [tox](https://github.com/tox-dev/tox/))
 * Single config using the new standardized `pyproject.toml` ([PEP518](https://www.python.org/dev/peps/pep-0518/))
 * Simple build/publish/dependency management using [poetry](https://github.com/sdispater/poetry)
-* Continous integration ([Travis CI](https://travis-ci.org/))
+* Continous integration ([Travis CI](https://travis-ci.org/) and/or [GitHub Actions](https://help.github.com/en/actions))
 * Code formatting ([black](https://github.com/psf/black))
 
 ## Prerequisites
@@ -40,6 +40,9 @@ Command | Description
 `poetry publish` | Publish package to PyPi.
 
 ## Continous integration
+
+### GitHub Actions
+Tests are run whenever there is a commit, see `.github/workflows/test.yml` for details.
 
 ### Travis CI
 Login to [Travis CI](https://travis-ci.org/) and connect your repo. Travis will automatically run tests whenever there is a commit.
