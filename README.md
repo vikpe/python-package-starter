@@ -1,5 +1,5 @@
 # Python Package Starter
-[![Build Status](https://travis-ci.org/vikpe/python-package-starter.svg?branch=master)](https://travis-ci.org/vikpe/python-package-starter) ![test](https://github.com/vikpe/python-package-starter/workflows/test/badge.svg?branch=master) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![test](https://github.com/vikpe/python-package-starter/workflows/test/badge.svg?branch=master) [![codecov](https://codecov.io/gh/vikpe/python-package-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/vikpe/python-package-starter) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Features
 * Multi python version support ([pyenv](https://github.com/pyenv/pyenv), [tox](https://github.com/tox-dev/tox/))
@@ -46,4 +46,4 @@ Command | Description
 Tests are run whenever there is a commit, see `.github/workflows/test.yml` for details.
 
 ### Code coverage
-[todo]
+Enable code coverage reporting to [Codecov](https://codecov.io/) by setting the secret `CODECOV_TOKEN` in your repository settings under "Secrets".
