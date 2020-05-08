@@ -28,7 +28,9 @@ jobs:
       - name: Run tests
         run: poetry run pytest tests --cov --cov-report=xml
       - name: Upload coverage to Codecov
-        if: ${{ secrets.CODECOV_TOKEN }}
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        if: ${{ CODECOV_TOKEN }}
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
