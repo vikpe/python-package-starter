@@ -5,7 +5,8 @@
 * Multi python version support ([pyenv](https://github.com/pyenv/pyenv), [tox](https://github.com/tox-dev/tox/))
 * Single config using the new standardized `pyproject.toml` ([PEP518](https://www.python.org/dev/peps/pep-0518/))
 * Simple build/publish/dependency management using [poetry](https://github.com/sdispater/poetry)
-* Continous integration ([Travis CI](https://travis-ci.org/) and/or [GitHub Actions](https://help.github.com/en/actions))
+* Continous integration ([GitHub Actions](https://help.github.com/en/actions))
+* Code coverage reporting ([Codecov](https://codecov.io/))
 * Code formatting ([black](https://github.com/psf/black))
 
 ## Prerequisites
@@ -43,9 +44,6 @@ Command | Description
 
 ### GitHub Actions
 Tests are run whenever there is a commit, see `.github/workflows/test.yml` for details.
-
-### Travis CI
-Login to [Travis CI](https://travis-ci.org/) and connect your repo. Travis will automatically run tests whenever there is a commit.
 
 ### Code coverage
 [todo]
