@@ -46,10 +46,4 @@ Command | Description
 Tests are run whenever there is a commit, see `.github/workflows/test.yml` for details.
 
 ### Code coverage
-Enable code coverage reporting to [Codecov](https://codecov.io/):
-1. Create an account
-2. Click "Add new repository"
-3. Copy the token
-4. Go to GitHub -> repo -> settings -> "Secrets" -> New Secret
-  * name: `CODECOV_TOKEN`
-  * value: [token from codecov]
+Enable code coverage reporting to [Codecov](https://codecov.io/) by creating a secret with name `CODECOV_TOKEN` in your repository settings (Settings -> Secrets -> New sectret) and value set to the token created by Codecov.
