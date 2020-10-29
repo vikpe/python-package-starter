@@ -8,10 +8,10 @@ authors = ["Viktor Persson <viktor.persson@arcsin.se>"]
 python = "^3.6"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^19.10b0", allow-prereleases = true}
-pytest = "^5.3.5"
-pytest-cov = "^2.8"
-pytest-sugar = "^0.9.2"
+black = "^20.8b1"
+pytest = "^6.1.2"
+pytest-cov = "^2.10.1"
+pytest-sugar = "^0.9.4"
 tox = "^3.14"
 tox-pyenv = "^1.1"
 
