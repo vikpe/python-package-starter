@@ -35,6 +35,7 @@ Command | Description
 `poetry add [package]` | Add package to dependencies.
 `poetry add -D [package]` | Add package to dev dependencies.
 `poetry run pytest` | Run tests in local Python version.
+`poetry run ptw tests foo --clear` | Watch for file changes and run tests in local Python version.
 `poetry run tox` | Run tests in all Python versions defined in `tox.ini`.
 `poetry run black .` | Run black code formatter.
 `poetry build` | Build sdist and wheel to `/dist`.
