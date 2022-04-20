@@ -14,7 +14,7 @@
 * [poetry](https://github.com/sdispater/poetry)
 
 ## Installation
-1. Install [pyenv](https://github.com/pyenv/pyenv).
+1. Install [pyenv](https://github.com/pyenv/pyenv) and [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv).
 2. Install the Python versions you want to support using `pyenv`.
   ```sh
   pyenv install 3.6.9
